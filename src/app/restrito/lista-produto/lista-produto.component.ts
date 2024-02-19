@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { LoginService } from '../../login.service';
 import { Produto } from '../../models/Produto.model';
 import { ProdutoService } from '../../produto.service';
-
+import {AtualizaProdutoComponent} from '../atualiza-produto/atualiza-produto.component'
 @Component({
   selector: 'app-lista-produto',
   templateUrl: './lista-produto.component.html',
@@ -12,6 +12,7 @@ import { ProdutoService } from '../../produto.service';
 export class ListaProdutoComponent implements OnInit{
 
   public produtos: Produto[] = [];
+
 
   constructor(private _produtoService:ProdutoService, private _router: Router,
     private _loginService:LoginService){}

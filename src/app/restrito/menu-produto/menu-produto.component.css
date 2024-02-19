@@ -1,14 +1,18 @@
 .example-spacer {
     flex: 1 1 auto;
-    }
-    span{
-    padding: 5px 5px;
-    }
-    a{
+  }
+  
+  span {
+    padding: 5px 10px; /* Aumentei um pouco o padding para melhorar a aparência */
+  }
+  
+  a {
     text-decoration: none;
     color: white;
-    }
-    img{
+  }
+  
+  img {
     height: 50px;
     width: 50px;
-    }
+  }
+  

@@ -11,7 +11,7 @@ export class LoginService {
   constructor() { }
 
   login(usuario:string, senha:string):void{
-    if(usuario=="aluno" && senha == "1234"){
+    if(usuario=="saraiva" && senha == "123456"){
       localStorage.setItem('token','qwer1234');
       this.mostraMenu.next(false);
     }else{

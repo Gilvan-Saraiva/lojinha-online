@@ -12,4 +12,7 @@ export class HeaderComponent {
   redirectToLogin() {
     this.router.navigate(['/login']);
   }
+  redirectToMenu(){
+    this.router.navigate(['']);
+  }
 }

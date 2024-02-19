@@ -1,11 +1,25 @@
 {
   "produtos": [
     {
-      "id": 748,
-      "produto": "sa",
+      "id": "748",
+      "produto": "controle",
       "descricao": "asd",
-      "foto": "asd",
+      "foto": "jogo1.webp",
       "preco": 232
+    },
+    {
+      "id": "746",
+      "produto": "palworld",
+      "descricao": "pal vs pika-chu",
+      "foto": "jogo2.jpg",
+      "preco": 1000000
+    },
+    {
+      "id": 472,
+      "produto": "sonic",
+      "descricao": "sonic advance",
+      "foto": "sonic.jpg",
+      "preco": 550
     }
   ]
 }

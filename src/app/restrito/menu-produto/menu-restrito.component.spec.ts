@@ -1,7 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { MenuProdutoComponent } from './menu-produto.component';
-
+import { ListaProdutoComponent } from '../lista-produto/lista-produto.component';
 describe('MenuRestritoComponent', () => {
   let component: MenuProdutoComponent;
   let fixture: ComponentFixture<MenuProdutoComponent>;
