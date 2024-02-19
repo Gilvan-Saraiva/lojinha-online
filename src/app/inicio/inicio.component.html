@@ -1,0 +1,38 @@
+<div class="color3">
+
+    <div class="centralizar">
+
+        <h1>Lojinha online</h1>
+
+        <mat-grid-list cols="3">
+            <mat-grid-tile *ngFor="let produto of produtos">
+                <mat-card class="example-card">
+                    <img mat-card-image class="imagem" src="../../assets/{{produto.foto}}" alt="Imagem do produto">
+
+                    <mat-card-header>
+                        <mat-card-title>{{produto.produto}}</mat-card-title>
+                    </mat-card-header>
+
+                    <mat-card-content>
+                        <p>{{produto.descricao}}</p>
+                    </mat-card-content>
+
+                    <mat-card-actions>
+                        <p>{{produto.preco | currency : 'BRL'}}</p>
+                        <button mat-button>Comprar</button>
+                    </mat-card-actions>
+                </mat-card>
+            </mat-grid-tile>
+        </mat-grid-list>
+
+        <h2>Explorando a Diversidade dos Jogos Médios Preferidos pelos Brasileiros</h2>
+        <p>Os jogos médios ocupam um lugar especial no coração dos jogadores brasileiros,
+            oferecendo experiências únicas e envolventes. Desde aventuras indie como "Celeste"
+            e "Hollow Knight" até os populares jogos de sobrevivência como "Minecraft" e "Terraria",
+            passando pelos RPGs de mundo aberto como "The Witcher 3" e jogos de estratégia como "Civilization VI"
+            , há uma diversidade de preferências. Além disso, os títulos cooperativos como "Among Us" e "Overcooked!
+            2" também conquistaram os brasileiros, proporcionando não apenas diversão, mas também oportunidades de
+            conexão
+            com amigos e outros jogadores online.</p>
+    </div>
+</div>

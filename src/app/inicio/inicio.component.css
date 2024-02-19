@@ -1,0 +1,25 @@
+.color3 {
+    background-color: lightslategray;
+    padding: 20px; /* Adicionando um espaçamento interno para melhorar a aparência */
+}
+
+.centralizar {
+    width: 90%; /* Aumentando a largura para melhorar a aparência */
+    margin: auto;
+    max-width: 1200px; /* Limitando a largura máxima para melhor legibilidade */
+}
+
+.imagem {
+    width: 100%; /* Fazendo com que as imagens dos cartões ocupem toda a largura disponível */
+}
+
+h2 {
+    font-size: 1.5rem; /* Ajustando o tamanho da fonte para melhor legibilidade */
+    margin-bottom: 5px; /* Adicionando um pequeno espaçamento entre os títulos e os preços */
+}
+
+@media (max-width: 768px) {
+    .centralizar {
+        width: 95%; /* Ajustando a largura para dispositivos móveis */
+    }
+}
